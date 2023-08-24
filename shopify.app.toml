@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "test-qr-code-app"
+client_id = "7e68a3b9e589c8c53bd97c8138304fa3"
+application_url = "https://reynolds-milan-dg-handmade.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://reynolds-milan-dg-handmade.trycloudflare.com/auth/callback",
+  "https://reynolds-milan-dg-handmade.trycloudflare.com/auth/shopify/callback",
+  "https://reynolds-milan-dg-handmade.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "raja-test-1.myshopify.com"

@@ -24,6 +24,9 @@ export default function App() {
           Home
         </Link>
         <Link to="/app/additional">Additional page</Link>
+        <Link to="/app/qrcodes/new">Create new QR Code</Link>{" "}
+        {/*This will
+        automatically be highlighted when the user is on this page. :o */}
       </ui-nav-menu>
       <Outlet />
     </AppProvider>

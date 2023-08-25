@@ -2,7 +2,7 @@
 
 name = "test-qr-code-app"
 client_id = "7e68a3b9e589c8c53bd97c8138304fa3"
-application_url = "https://cakes-advice-song-egyptian.trycloudflare.com"
+application_url = "https://vitamins-mandatory-britain-comes.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://cakes-advice-song-egyptian.trycloudflare.com/auth/callback",
-  "https://cakes-advice-song-egyptian.trycloudflare.com/auth/shopify/callback",
-  "https://cakes-advice-song-egyptian.trycloudflare.com/api/auth/callback"
+  "https://vitamins-mandatory-britain-comes.trycloudflare.com/auth/callback",
+  "https://vitamins-mandatory-britain-comes.trycloudflare.com/auth/shopify/callback",
+  "https://vitamins-mandatory-britain-comes.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

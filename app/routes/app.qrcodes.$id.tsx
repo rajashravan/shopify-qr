@@ -46,6 +46,7 @@ export async function loader({ request, params }) {
   return json(await getQRCode(Number(params.id), admin.graphql));
 }
 
+// on form submit, create or update the QR code or throw errors
 export async function action({ request, params }) {
   const { session } = await authenticate.admin(request);
   const { shop } = session;
